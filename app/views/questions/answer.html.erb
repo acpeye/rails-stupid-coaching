@@ -1,0 +1,7 @@
+<h1>Stupid Coaching</h1>
+<%= yield %>
+<p> You -   "<%= params[:question] %>"</p>
+<p> Coach - "<%= @answer %>"</p>
+
+<%= link_to "Want to retry?", ask_path %>
+
